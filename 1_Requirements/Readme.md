@@ -1,7 +1,7 @@
 # Requirements
 ## Introduction
 An Automatic Washing Machine Console System program which is based on user inputs to choose from wide varities of different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
-![Description](https://github.com/vivek/Mini_Project_StepIn_LTTS/blob/04fe3592b406b3528b82e15cb4a8ab41333f0880/1_Requirements/Req.png)
+![Description](https://github.com/Vivek105/Mini_Project/blob/21dcd7d30c2e083c7123dd9b042932d8012480d3/1_Requirements/Req.png)
 
 ## Research
 ### Automatic Washing Machine Control Systems
@@ -20,10 +20,10 @@ No. | Features | Cost
 ## Defining Our System
 It is a user input based application for Automatic Washing Machine Console System program with different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
 
-![SYSTEM Structure](https://github.com/vivek/Mini_Project_StepIn_LTTS/blob/7e972f7338b81a520ca9ba0e272f0a886606ee3b/1_Requirements/Requirements.jpg)
+![SYSTEM Structure](https://github.com/Vivek105/Mini_Project/blob/21dcd7d30c2e083c7123dd9b042932d8012480d3/1_Requirements/Requirements.jpg)
 
 ## SWOT ANALYSIS
-![SWOT-Sample](https://github.com/vivek/Mini_Project_StepIn_LTTS/blob/bcc616b960ea97bfce66d167452eb574b3677cc3/1_Requirements/SWOT%20Analysis.png)
+![SWOT-Sample](https://github.com/Vivek105/Mini_Project/blob/21dcd7d30c2e083c7123dd9b042932d8012480d3/1_Requirements/SWOT%20Analysis.png)
 
 # 4W&#39;s and 1&#39;H
 
