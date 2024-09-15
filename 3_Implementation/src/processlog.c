@@ -10,7 +10,7 @@
  */
 # include "wmcs.h"
 
-void processlog() {
+void processlog(char *result, int motor_speed, int water_level, int water_supply, int lid_status, int detergent) {
  printf("\n********************((The Machine is in Process))********************:\n");
  
  int j=0;

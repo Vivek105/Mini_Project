@@ -12,7 +12,7 @@
 
 int iv=240;
 
-int System_checks(int motor_speed, int water_level, int water_supply, int lid_status,int detergent){
+int System_checks(char *result, int motor_speed, int water_level, int water_supply, int lid_status,int detergent){
   system("cls");
  printf("\n**************************************************************");
  printf("\n                     * ((System Checks)) *                    ");
@@ -67,7 +67,7 @@ int j=0;
  if( water_level>=10 && water_level<=20 && iv>=190 && iv<=250 && lid_status==1){
   printf("\nWater Supply:%s\nDetergent status: %s \nWater Level status: %d\nVoltage: %d\n",supply,det,water_level,iv);
   printf("\nSystem Checks: Pass\n");
-  processlog();
+  processlog(result, motor_speed, water_level, water_supply, lid_status, detergent);
  }else if( water_level<=10 && water_level>=20 && iv<=190 && iv>=250 && lid_status==0){
  printf("\nSystem Checks: Fail\n");
  start();}

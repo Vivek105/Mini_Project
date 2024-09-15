@@ -23,18 +23,21 @@ void start() {
  ch = getchar();
  printf("\n%c",ch);
  do
- {
-   if(ch=='s'){
-  printf("\nWashing machine is ON.");
-  Loadsize();
- }else if(ch=='e'){
-   printf("\nWashing machine is Shuting down.");
-   sleep(2);
-   system("exit");}
-
-  printf("\nInvalid answer. Type correctly:");
-  ch= getchar();
-  printf("\n%c",ch);
- }
- while(ch!='s'&&ch!='e');
+  {
+    if(ch=='s')
+    {
+      printf("\nWashing machine is ON.");
+      Loadsize(count);
+    }
+    else if(ch=='e')
+    {
+      printf("\nWashing machine is Shuting down.");
+      sleep(2);
+      system("exit");
+    }
+    printf("\nInvalid answer. Type correctly:");
+    ch= getchar();
+    printf("\n%c",ch);
+  }
+  while(ch!='s'&&ch!='e');
  }

@@ -10,7 +10,7 @@
  */
 # include "wmcs.h"
 
-void inputlog() {
+void inputlog(char* result, int count) {
  printf("\n********************((The Machine is Ready to Work))********************:\n");
  printf("\n");
  
@@ -63,5 +63,5 @@ void inputlog() {
  }else if(result[j]=='c')
   {printf("\nTemperature of water is cold.\n\n");}
   
-  System_checks();
+  System_checks(result, 0,0,0,0,0);
  }

@@ -23,15 +23,15 @@
 int main(void);
 void start();
 void mainmenu();
-void Loadsize();
-int System_checks();
-void WashMenu();
-void soak();
-void soakTime();
-void Temperature();
-void inputlog();
-void processlog();
-char result[4];
-int times,count;
+void Loadsize(int);
+int System_checks(char*, int, int, int, int, int);
+void WashMenu(char*, int);
+void soak(char*, int);
+void soakTime(char*, int);
+void Temperature(char*, int);
+void inputlog(char*, int);
+void processlog(char*, int, int, int, int, int);
+static char result[4];
+static int times = 0, count = 0;
 
 #endif  /* #define __WMCS_H__ */
